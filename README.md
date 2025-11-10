@@ -1,19 +1,19 @@
-# 💼 Freelancer Dashboard
+# Freelancer Dashboard
 
 ![{31A27E95-C9A9-49B6-B752-85F49144468B} 1](https://github.com/user-attachments/assets/0418484b-6b54-4162-bf73-d3226e5d88f3)
 
-## 🚀 Overview
+## <code>Introdução</code>
 
 Freelancer Dashboard é uma aplicação web desenvolvida com Next.js, focada em ajudar freelancers a gerenciar seus projetos, organização financeira e metas. A dashboard possui quatro páginas principais: controle financeiro, metas, projetos e login.
 
-## 📋 Requirements
+## <code>Pré-requisitos</code>
 
 - Node.js
 - Firebase
 - ReactIcons
 - npm
  
-## 🔧 Installation
+## <code>Configuração</code>
 
 1. Clone o repositório:
 
@@ -39,7 +39,7 @@ npm install
 npm run dev
 ```
 
-## 🔑 Firebase Configuration
+## <code>Firebase</code>
 
 Para integrar o Firebase ao projeto, siga os seguintes passos:
 
@@ -60,7 +60,7 @@ const firebaseConfig = {
 };
 ```
 
-## 🔒 Firebase Security Rules
+## <code>Segurança Firebase</code>
 
 Para proteger o banco de dados, adicione as seguintes regras de segurança no Firestore:
 
@@ -75,7 +75,7 @@ service cloud.firestore {
 }
 ```
 
-## 🛠️ Project Structure
+## <code>Estrutura</code>
 
 - components/: Contém componentes React reutilizáveis na aplicação.
 - pages/: Páginas principais do Next.js representando diferentes rotas.
@@ -86,6 +86,6 @@ service cloud.firestore {
 - public/: Arquivos estáticos como imagens e ícones.
 - styles/: Arquivos de estilo global e componentes estilizados com Tailwind CSS.
 
-## 📄 License
+## <code>Licença</code>
 
-- This project is licensed under the [MIT License](LICENSE).
+- Este projeto está licenciado sob a [Licença MIT](LICENSE).
